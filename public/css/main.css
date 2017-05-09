@@ -1,0 +1,75 @@
+body{
+  /*background: linear-gradient(#ea5555, 	#722525);*/
+  background-color: black;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#gameHook {
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
+#splash{
+  width: 100vw;
+  height: 100vh;
+  color: honeydew;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  justify-content: center;
+}
+	#splash > h1{
+	  color: honeydew;
+	  font-size: 55px;
+	  /*margin-bottom: 40%;*/
+	}
+
+.row{
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.form{
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-shadow: 10px;
+  width: 80%;
+}
+
+input[type=text]{
+  margin-left: 1em;
+  background-color: inherit;
+  font-size: 25px;
+  width: 80%;
+  color: #00ff6b;
+  border: 1px solid grey;
+}
+
+input[type=submit]{
+  width: 20%;
+  text-align: center;
+  color: white;
+  background: rgba(100, 20, 102, .25);
+  border-radius: 5%;
+  border-style: dotted;
+  border: 1px dashed blue;
+}
+
+	input[type=submit]:hover {
+	  background:rgba(255,255,255, .3);
+	  color: honeydew;
+	  cursor:pointer;
+	}
+
+img{
+  height: 20em;
+  width: 20em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
